@@ -1,0 +1,112 @@
+{
+  "security_summary": {
+    "lines_quarantined": 5,
+    "quarantine_log": [
+      {
+        "line_number": 53,
+        "reason": "xss_script_tag"
+      },
+      {
+        "line_number": 54,
+        "reason": "sql_injection"
+      },
+      {
+        "line_number": 55,
+        "reason": "bulk_card_dump"
+      },
+      {
+        "line_number": 56,
+        "reason": "path_traversal"
+      },
+      {
+        "line_number": 57,
+        "reason": "xss_event_handler"
+      }
+    ],
+    "note": "Quarantined lines are excluded from extraction. Raw malicious payloads are never stored in this report to avoid propagating them downstream."
+  },
+  "extracted_data": {
+    "emails": [
+      {
+        "masked": "g*********e@alueducation.com",
+        "category": "alu_official"
+      },
+      {
+        "masked": "k******h@alumni.alueducation.com",
+        "category": "alu_alumni"
+      },
+      {
+        "masked": "k************3@gmail.com",
+        "category": "external"
+      },
+      {
+        "masked": "s*********n@si.alueducation.com",
+        "category": "alu_si"
+      },
+      {
+        "masked": "s******u@si.alueducation.com",
+        "category": "alu_si"
+      },
+      {
+        "masked": "f*************y@alueducation.com",
+        "category": "alu_official"
+      },
+      {
+        "masked": "b****r@alueducation.com",
+        "category": "alu_official"
+      },
+      {
+        "masked": "s*****t@aIueducation.com",
+        "category": "external"
+      },
+      {
+        "masked": "a*****k@alueducation.com",
+        "category": "alu_official"
+      }
+    ],
+    "credit_cards": [
+      {
+        "masked": "**** **** **** 6467",
+        "length": 16,
+        "luhn_valid": true
+      }
+    ],
+    "urls": [
+      "http://blog.alu-community.org/2026/recap",
+      "https://billing.aluportal.com/invoices/2026/09/inv-88213?ref=refund",
+      "https://twitter.com/alu_fintech_club",
+      "www.alueducation.com/policies/refunds.pdf"
+    ],
+    "phone_numbers": [
+      "(0252) 573100",
+      "(0788) 456-789",
+      "+250 788 123 456",
+      "+250-788-000-111",
+      "078-234-5566"
+    ],
+    "hashtags": [
+      "#ALUdown",
+      "#ALUproud",
+      "#ClassOf2026",
+      "#FinTech",
+      "#TechSupportPlease"
+    ],
+    "currency_amounts": [
+      "$1,250.00",
+      "$360.15",
+      "$45.00",
+      "3,400 RWF",
+      "RWF 450,000",
+      "\u00a53,200",
+      "\u20ac25.00"
+    ]
+  },
+  "counts": {
+    "emails": 9,
+    "credit_cards": 1,
+    "urls": 4,
+    "phone_numbers": 5,
+    "hashtags": 5,
+    "currency_amounts": 7
+  }
+}
