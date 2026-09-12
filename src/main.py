@@ -24,7 +24,7 @@ external API / support-ticket export) and:
      written to output/logs in full — only masked forms are stored.
 
 Run:
-    python src/main.py
+    python3 src/main.py
 Output:
     Printed console summary + output/sample-output.json
 --------------------------------------------------------------------

@@ -7,7 +7,7 @@ text comes in from an external source (here, a fake "support ticket export"),
 and the program must safely extract structured data from it using regex,
 without blindly trusting the input.
 
-It extracts **six** data types (four more than the minimum required):
+It extracts **six** data types (two more than the minimum required):
 
 | Data type          | Notes                                                        |
 |---------------------|---------------------------------------------------------------|
@@ -23,7 +23,7 @@ It extracts **six** data types (four more than the minimum required):
 Requires Python 3.8+ (standard library only, no dependencies to install).
 
 ```bash
-python src/main.py
+python3 src/main.py
 ```
 
 This will:
@@ -139,7 +139,7 @@ extracted/classified data set.
 
 ## Notes for grading / reuse
 
-- Replace `yourusername` in the folder name with your actual GitHub username
-  before submitting, per the required repo naming convention.
+- Repo folder name follows the required convention:
+  `alu-regex-data-extraction_shyakaalex`.
 - The extraction functions in `src/main.py` are pure and can be imported/
   reused independently of the CLI `main()` entry point if needed.
