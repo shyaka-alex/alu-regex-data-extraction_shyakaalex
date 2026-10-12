@@ -1,4 +1,2 @@
-__pycache__/
-*.py[cod]
 .DS_Store
-friend/
+__pycache__/
